@@ -7598,6 +7598,9 @@ html,
 body {
   overflow-x: hidden;
 }
+.navbar {
+  background-color: rgba(127, 140, 141, 0.4);
+}
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -7654,6 +7657,7 @@ body {
   margin-bottom: 25px;
 }
 #about .about-content {
+  padding-top: 25px;
   font-size: 25px;
   font-family: 'Raleway';
   font-weight: 550;
@@ -7700,6 +7704,110 @@ body {
 }
 #portfolio .row {
   text-align: center;
+}
+.view {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  background: #ffffff url(img/chickadee-farm.jpg) no-repeat center center;
+}
+.view .mask,
+.view .content {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.view img {
+  display: block;
+  position: relative;
+}
+.view h2 {
+  font-family: "Poiret One";
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  padding: 10px;
+  background: #3498db;
+  margin: 0 0 0 0;
+}
+.view p {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  position: relative;
+  color: #fff;
+  padding: 30px 20px 20px;
+  text-align: center;
+}
+.view a.info {
+  font-family: "Open Sans", sans;
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000000;
+}
+.view a.info:hover,
+.view a.info:focus {
+  box-shadow: 0 0 5px #000000;
+}
+.view-first img {
+  transition: all 0.2s linear;
+}
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(52, 73, 94, 0.7);
+  transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first a.info {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first:hover img,
+.view-first:focus img {
+  transform: scale(1.1);
+}
+.view-first:hover .mask {
+  opacity: 1;
+}
+.view-first:hover h2,
+.view-first:focus h2,
+.view-first:hover p,
+.view-first:focus p,
+.view-first:hover a.info,
+.view-first:focus a.info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.view-first:hover p,
+.view-first:focus p {
+  transition-delay: 0.1s;
+}
+.view-first:hover a.info,
+.view-first:focus a.info {
+  transition-delay: 0.2s;
 }
 .clearfix:before,
 .clearfix:after,
