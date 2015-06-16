@@ -7809,14 +7809,7 @@ body {
 .view-first:focus a.info {
   transition-delay: 0.2s;
 }
-#transition {
-  min-height: 200px;
-  background-color: #34495e;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 #contact {
-  padding-top: 20px;
   padding-bottom: 50px;
 }
 #contact #contact-title {
