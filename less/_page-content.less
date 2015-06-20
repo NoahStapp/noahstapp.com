@@ -1,8 +1,8 @@
 
+
 // Page Content
-html, body { 
-	overflow-x: hidden;
-}
+
+
 
 // Navbar
 .navbar {
@@ -38,23 +38,25 @@ html, body {
 
 // Header
 #home {
-	min-height: 800px;
-	background-color: #191919;
+	min-height: 1000px;
 	background-size: cover;
 	background-image: url("../img/banner.jpg");
-	#home-title {
-		font-weight: 500;
-		color: #ecf0f1;
-		position: relative;
-		width: 100%;
-		text-align: center;
-		padding-top: 200px;
+	@media (max-width: @screen-xs-max) {
+		background-image: url("../img/banner-mobile.jpg");
+		min-height: 700px;
+	}
+	#header-title {
+		padding-top: 350px;
+		@media (max-width: @screen-xs-max) {
+			padding-top: 100px;
+		}
 		h1 {
+			color: #ecf0f1;
 			font-size: 90px;
 			font-family: 'Poiret One';
 		}
-	 	h3 {
-			color: #D97A26;
+		h3 {
+			color: #1abc9c;
 			font-family: 'Lato', sans-serif;
 			font-size: 24px;
 		}
@@ -62,15 +64,11 @@ html, body {
 }
 // About 
 #about {
-	min-height: 400px;
+	min-height: 300px;
 	text-align: center;
-	#about-title {
-		font-family: 'Raleway';
-		font-size: 64px;
-		margin-bottom: 25px;
-	}
 	.about-content {
-		padding-top: 25px;
+		padding-top: 75px;
+		padding-bottom: 75px;
 		font-size: 25px;
 		font-family: 'Raleway';
 		font-weight: 550;
@@ -244,7 +242,7 @@ html, body {
 // Portfolio-Contact transition
 #transition {
 	min-height: 200px;
-	background-color: #34495e;
+	background-color: #2980b9;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
