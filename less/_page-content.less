@@ -2,9 +2,11 @@
 
 // Page Content
 
+html, body {
+	overflow-x: hidden;
+}
 
-
-// Navbar
+// Navbar section
 .navbar {
 	background-color: rgba(127, 140, 141, 0.4)
 }
@@ -22,7 +24,7 @@
 .navbar .navbar-nav {
 	li a {
 		font-size: 17px;
-		font-family: 'Raleway';
+		font-family: 'Raleway', sans-serif;
 		color: #fff;
 		font-weight: 600;
 		padding-right: 25px;
@@ -36,7 +38,7 @@
 	}
 }
 
-// Header
+// Header section
 #home {
 	min-height: 1000px;
 	background-size: cover;
@@ -53,7 +55,7 @@
 		h1 {
 			color: #ecf0f1;
 			font-size: 90px;
-			font-family: 'Poiret One';
+			font-family: 'Poiret One', cursive;
 		}
 		h3 {
 			color: #1abc9c;
@@ -62,7 +64,7 @@
 		}
 	}
 }
-// About 
+// About section
 #about {
 	min-height: 300px;
 	text-align: center;
@@ -70,12 +72,69 @@
 		padding-top: 75px;
 		padding-bottom: 75px;
 		font-size: 25px;
-		font-family: 'Raleway';
+		font-family: 'Raleway', sans-serif;
 		font-weight: 550;
 	}
 }
 
-// Services
+// Signup section
+
+#signup {
+	text-align: center;
+	min-height: 350px;
+	background-color: #f4f5f6;
+	#signup-header {
+		padding-bottom: 15px;
+	}
+	#signup-title {
+		font-size: 60px;
+		font-family: "Raleway", sans-serif;
+	}
+	#signup-subtitle {
+		font-size: 20px;
+		font-family: "Open Sans", sans;
+	}
+	#signup-email {
+		min-width: 500px;
+		min-height: 50px;
+		color: #ecf0f1;
+		background-color: #3498db;
+		border: none;
+		font-family: "Open Sans", sans;
+		font-size: 20px;
+		padding-left: 5px;
+	}
+	::-webkit-input-placeholder {
+		font-size: 20px;
+		font-family: "Lato", sans;
+		color: #ecf0f1;
+	}
+	#signup-submit {
+		position:relative;
+		font-size: 20px;
+		min-height: 50px;
+		padding: 0px 15px;
+		left: 8px;
+		border: none;
+		background-color: #16a085;
+		color: #ecf0f1;
+	}
+	#signup-submit:hover {
+		background-color: #1abc9c;
+	}
+	@media (max-width: @screen-xs-max) {
+		#signup-email {
+			min-width: 100%;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+		#signup-submit {
+			margin-bottom: 50px;
+		}
+	}
+}
+
+// Services section
 
 #services {
 	min-height: 500px;
@@ -89,7 +148,7 @@
 		}
 		h3 {
 			font-style: italic;
-			font-family: 'Open Sans';
+			font-family: 'Open Sans', sans;
 			font-size: 25px;
 			color: #95a5a6;
 			padding-bottom: 20px;
@@ -115,8 +174,8 @@
 	}
 		
 }
-
-// Porfolio
+ 
+// Porfolio section
 #portfolio {
 	min-height: 600px;
 	h1 {
@@ -125,19 +184,17 @@
 		text-align: center;
 		margin-bottom: 75px;
 	}
-	.row {
-		text-align: center;
+	img {
+		float: none;
 	}
-
 }
 
-// Portfolio hover effect
+// Portfolio click/hover effect
 
 .view {
     width: 300px;
     height: 300px;
     margin: 10px;
-    // float: left;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -187,8 +244,8 @@
     text-transform: uppercase;
     box-shadow: 0 0 1px #000
 }
-.view a.info:hover,
-.view a.info:focus  {
+.view a.info.hover,
+.view a.info:hover  {
     box-shadow: 0 0 5px #000
 }
 
@@ -214,43 +271,43 @@
     opacity: 0;
 	transition: all 0.2s ease-in-out;
 }
-.view-first:hover img,
-.view-first:focus img { 
+.view-first.hover img,
+.view-first:hover img { 
 	transform: scale(1.1);
 } 
+.view-first.hover .mask,
 .view-first:hover .mask { 
 	opacity: 1;
 }
+.view-first.hover h2,
 .view-first:hover h2,
-.view-first:focus h2,
+.view-first.hover p,
 .view-first:hover p,
-.view-first:focus p,
-.view-first:hover a.info,
-.view-first:focus a.info {
+.view-first.hover a.info,
+.view-first:hover a.info {
     opacity: 1;
-    transform: translateY(0px);
+   	transform: translateY(0px);
 }
-.view-first:hover p,
-.view-first:focus p {
+.view-first.hover p,
+.view-first:hover p {
     transition-delay: 0.1s;
 }
-.view-first:hover a.info,
-.view-first:focus a.info {
+.view-first.hover a.info,
+.view-first:hover a.info {
     transition-delay: 0.2s;
 }
 
-// Portfolio-Contact transition
-#transition {
-	min-height: 200px;
-	background-color: #2980b9;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-// Contact Section
+// Contact section
 #contact {
 	padding-top: 20px;
 	padding-bottom: 50px;
+	background-color: #34545e;
+	#contact-title,
+	.contact-intro,
+	.contact-phone,
+	.contact-email {
+		color: #ecf0f1;
+	}
 	#contact-title {
 		font-family: "Poiret One", cursive;
 		font-size: 64px;
@@ -278,6 +335,12 @@
 		}
 		span {
 			font-size: 24px;
+		}
+	}
+	.contact-email a {
+		color: #3498db;
+		&:hover {
+			color: #ecf0f1
 		}
 	}
 }
