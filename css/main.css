@@ -5027,7 +5027,6 @@ body {
 #signup {
   text-align: center;
   min-height: 350px;
-  background-color: #f4f5f6;
 }
 #signup #signup-header {
   padding-bottom: 15px;
@@ -5039,6 +5038,18 @@ body {
 #signup #signup-subtitle {
   font-size: 20px;
   font-family: "Open Sans", sans;
+}
+#signup #signup-name {
+  min-width: 100px;
+  min-height: 50px;
+  color: #ecf0f1;
+  background-color: #1d6ea6;
+  border: none;
+  font-family: "Open Sans", sans;
+  font-size: 20px;
+  position: relative;
+  right: 10px;
+  padding-left: 5px;
 }
 #signup #signup-email {
   min-width: 500px;
@@ -5052,7 +5063,7 @@ body {
 }
 #signup ::-webkit-input-placeholder {
   font-size: 20px;
-  font-family: "Lato", sans;
+  font-family: "Open Sans", sans;
   color: #ecf0f1;
 }
 #signup #signup-submit {
@@ -5069,6 +5080,10 @@ body {
   background-color: #1abc9c;
 }
 @media (max-width: 767px) {
+  #signup #signup-name {
+    margin-bottom: 20px;
+    right: 0px;
+  }
   #signup #signup-email {
     min-width: 100%;
     margin-right: 20px;
@@ -5077,6 +5092,22 @@ body {
   #signup #signup-submit {
     margin-bottom: 50px;
   }
+}
+#marketing {
+  text-align: center;
+  min-height: 300px;
+  background-color: #f7f9f9;
+}
+#marketing #marketing-title {
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
+}
+#marketing .marketing-content p {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 550;
 }
 #services {
   min-height: 500px;
@@ -5109,6 +5140,9 @@ body {
   color: #FAFAFA;
   font-family: 'Open Sans';
 }
+#services .services-intro p {
+  font-size: 20px;
+}
 #portfolio {
   min-height: 600px;
 }
@@ -5117,9 +5151,6 @@ body {
   font-size: 80px;
   text-align: center;
   margin-bottom: 75px;
-}
-#portfolio img {
-  float: none;
 }
 .view {
   width: 300px;

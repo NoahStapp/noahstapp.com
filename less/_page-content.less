@@ -82,7 +82,6 @@ html, body {
 #signup {
 	text-align: center;
 	min-height: 350px;
-	background-color: #f4f5f6;
 	#signup-header {
 		padding-bottom: 15px;
 	}
@@ -93,6 +92,18 @@ html, body {
 	#signup-subtitle {
 		font-size: 20px;
 		font-family: "Open Sans", sans;
+	}
+	#signup-name {
+		min-width: 100px;
+		min-height: 50px;
+		color: #ecf0f1;
+		background-color: #1d6ea6;
+		border: none;
+		font-family: "Open Sans", sans;
+		font-size: 20px;
+		position: relative;
+		right: 10px;
+		padding-left: 5px;
 	}
 	#signup-email {
 		min-width: 500px;
@@ -106,11 +117,11 @@ html, body {
 	}
 	::-webkit-input-placeholder {
 		font-size: 20px;
-		font-family: "Lato", sans;
+		font-family: "Open Sans", sans;
 		color: #ecf0f1;
 	}
 	#signup-submit {
-		position:relative;
+		position: relative;
 		font-size: 20px;
 		min-height: 50px;
 		padding: 0px 15px;
@@ -123,6 +134,10 @@ html, body {
 		background-color: #1abc9c;
 	}
 	@media (max-width: @screen-xs-max) {
+		#signup-name {
+			margin-bottom: 20px;
+			right: 0px;
+		}
 		#signup-email {
 			min-width: 100%;
 			margin-right: 20px;
@@ -131,6 +146,29 @@ html, body {
 		#signup-submit {
 			margin-bottom: 50px;
 		}
+	}
+}
+
+
+// Marketing section
+
+#marketing {
+	text-align: center;
+	min-height: 300px;
+	background-color: #f7f9f9;
+	#marketing-title {
+		font-size: 60px;
+		font-family: "Lato", sans-serif;
+	}
+	.marketing-content {
+		p {
+			padding-top: 25px;
+			padding-bottom: 75px;
+			font-size: 25px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 550;
+		}
+
 	}
 }
 
@@ -172,6 +210,11 @@ html, body {
 			font-family: 'Open Sans';
 		}
 	}
+	.services-intro {
+		p {
+			font-size: 20px;
+		}
+	}
 		
 }
  
@@ -184,30 +227,27 @@ html, body {
 		text-align: center;
 		margin-bottom: 75px;
 	}
-	img {
-		float: none;
-	}
 }
 
 // Portfolio click/hover effect
 
 .view {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    background: #fff url(./img/chickadee-farm.jpg) no-repeat center center
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: #fff url(./img/chickadee-farm.jpg) no-repeat center center;
 }
 .view .mask, .view .content {
     width: 300px;
     height: 300px;
     position: absolute;
     overflow: hidden;
-    top: 0;
+   	top: 0;
     left: 0
 }
 .view img {
