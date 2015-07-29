@@ -5110,7 +5110,7 @@ body {
   font-weight: 550;
 }
 #services {
-  min-height: 500px;
+  min-height: 800px;
   text-align: center;
   background-color: #2c3e50;
 }
@@ -5142,6 +5142,23 @@ body {
 }
 #services .services-intro p {
   font-size: 20px;
+}
+#services .services-icons {
+  margin-bottom: 20px;
+}
+#services .services-content-title h1 {
+  font-size: 24px;
+  color: #2980b9;
+  font-family: 'Lato', sans-serif;
+}
+#services .services-content {
+  padding-top: 22px;
+}
+#services .services-content p {
+  font-size: 18px;
+  color: #ecf0f1;
+  font-family: "Open Sans", sans;
+  text-align: left;
 }
 #portfolio {
   min-height: 600px;
