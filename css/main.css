@@ -5013,6 +5013,11 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 24px;
 }
+#home .down-arrow {
+  color: rgba(251, 252, 252, 0.8);
+  text-align: center;
+  font-size: 50px;
+}
 #about {
   min-height: 300px;
   text-align: center;
@@ -5096,7 +5101,8 @@ body {
 #marketing {
   text-align: center;
   min-height: 300px;
-  background-color: #f7f9f9;
+  background-color: #2c5050;
+  color: #fff;
 }
 #marketing #marketing-title {
   font-size: 60px;
@@ -5266,16 +5272,32 @@ body {
 .view-first:hover a.info {
   transition-delay: 0.2s;
 }
+#testimonials {
+  min-height: 400px;
+  background-color: #34545e;
+  color: #ecf0f1;
+}
+#testimonials #testimonials-title {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 50px;
+}
+#testimonials #testimonials-content {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans;
+  padding-bottom: 10px;
+}
+#testimonials #testimonials-author {
+  text-align: right;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 25px;
+}
 #contact {
   padding-top: 20px;
   padding-bottom: 50px;
-  background-color: #34545e;
-}
-#contact #contact-title,
-#contact .contact-intro,
-#contact .contact-phone,
-#contact .contact-email {
-  color: #ecf0f1;
 }
 #contact #contact-title {
   font-family: "Poiret One", cursive;

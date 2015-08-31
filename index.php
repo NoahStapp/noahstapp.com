@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php include('perch/runtime.php');?>
+<!DOCTYPE HTML>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Raleway|Poiret+One|Lato|Open+Sans" rel="stylesheet" type="text/css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
@@ -37,6 +38,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
@@ -52,6 +54,7 @@
             <div id="header-title">
               <h1>Noah Stapp</h1>
               <h3>Web development &amp; design</h3>
+              <a href="#about"><span class="down-arrow fa fa-angle-double-down"></span></a>
             </div>
           </div>
         </div>
@@ -65,9 +68,7 @@
           <div class="container">
             <div class="row">
               <div class="about-content col-sm-12">
-                <p>Hello! I'm Noah Stapp, a web developer and designer from Westford, Massachusetts.
-                  I specialize in providing high-quality, business-improving web solutions to businesses and individuals.
-                  I have experience in HTML, CSS, Javascript, Ruby, Ruby on Rails, and Python.</p>
+                  <?php perch_content('About text'); ?>
               </div>
             </div>
           </div>
@@ -80,10 +81,7 @@
               <h1 id="marketing-title">Make your website work for you</h1>
             <div class="row">
               <div class="marketing-content col-sm-12">
-                <p>Thousands of businesses have outdated, inefficient websites that don't generate revenue or provide a platform to get in contact with customers.
-                  A simple static brochure site does very little to increase sales or obtain more customers.
-                  A well-made webpage can generate thousands in revenue, but many sites lack the structure and design needed to generate sales.
-                  Your website shouldn't be a thorn in your side that costs money to maintain every month--it should help create income and drive new and return customers to your business.</p>
+                <?php perch_content('Marketing text'); ?>
               </div>
             </div>
           </div>
@@ -117,38 +115,10 @@
               <h3 id="services-small-title">How can I help your business?</h3>
             </div>
             <div class="row services-icons">
-              <div class="services-item col-md-4 col-sm-4">
-                <span class="icon fa fa-code"></span>
-                <h1>Custom Development</h1>
-                <p>Handcrafted, accessible websites that provide your customers with a sleek, informative web experience.</p>
-              </div>
-              <div class="services-item col-md-4 col-sm-4">
-                <span class="icon fa fa-wrench"></span>
-                <h1>Website Overhaul</h1>
-                <p>Replace outdated and inaccessible websites with fresh, easy-to-use relaunches.</p>
-              </div>
-              <div class="services-item col-md-4 col-sm-4">
-                <span class="icon fa fa-mobile"></span>
-                <h1>Responsive Design</h1>
-                <p>Make your site look great no matter what device it's viewed on.</p>
-              </div>
+                <?php perch_content('Services icon content'); ?>
             </div>
-            <div class="row">
-              <div class="services-content-title col-sm-4">
-                <h1>Social Media Integration</h1>
-              </div>
-              <div class="services-content col-sm-8">
-                <p>Quickly and painlessly set up and intergrate social media, allowing you to focus on running and growing your business.</p>
+              <?php perch_content('Services content'); ?>
           </div>
-        </div>
-        <div class="row">
-          <div class="services-content-title col-sm-4">
-            <h1>Customer Connection Services</h1>
-          </div>
-          <div class="services-content col-sm-8">
-            <p>Increase your number of repeat and new customers. Start an email newsletter, mailing list, or blog to contact and connect with customers, and implement it into your site.</p>
-          </div>
-        </div>
         </section>
 
       <!-- PORTFOLIO SECTION -->
@@ -156,30 +126,18 @@
           <div class="container">
             <h1 id="portfolio-title">Portfolio</h1>
               <div class="row">
-                <div class="col-sm-12">
-                  <div class="view view-first">
-                   <a href="http://www.chickadeefarm.us"><img class="center-block" src="./img/chickadee-farm.jpg"/></a>
-                   <div class="mask">
-                   <h2>Chickadee Farm</h2>
-                   <p>Bringing the benefits of farming to your home.</p>
-                       <a href="http://www.chickadeefarm.us" class="info">See site</a>
-                   </div>
-                  </div>
-                </div>
+                <?php perch_content('Portfolio content'); ?>
               </div>
             </div>
           </section>
 
-      <!-- TRANSITION -->
-      <section id="transition">
-        <div class="container">
-          <div class="row">
-            <div class="contact-transition col-sm-12">
-            </div>
-          </div>
-        </div>
-      </section>
-
+          <!-- TESTIMONIALS SECTION -->
+          <section id="testimonials">
+            <div class="container">
+              <h1 id="testimonials-title">Testimonials</h1>
+                <?php perch_content('Testimonials content'); ?>
+              </div>
+            </section>
 
       <!-- CONTACT SECTION -->
         <section id="contact">
@@ -187,7 +145,7 @@
             <h2 id="contact-title">Contact Me</h2>
               <div class="row">
                 <div class="contact-intro col-sm-12">
-                  <p>Contact me to discuss how I can help your business.</p>
+                  <?php perch_content('Contact content'); ?>
                 </div>
               </div>
               <div class="row">
