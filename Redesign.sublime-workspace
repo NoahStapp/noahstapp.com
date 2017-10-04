@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"perch_",
+				"perch_blog_custom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5346,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/_page-content.less",
+			"settings":
+			{
+				"buffer_size": 5935,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Noah/Web Development/NoahRedesign/Site",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/css",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/less",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch/templates",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch/templates/content"
+	],
+	"file_history":
+	[
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/less/_page-content.less",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch/templates/content/portfolio-item.html",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch/templates/content/text_block.html",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/perch/templates/content/portfolio-item-old.html",
+		"/C/Users/Noah/Web Development/Noah/Site/less/_variables.less",
+		"/C/Users/Noah/Web Development/Noah/Site/less/_page-content.less",
+		"/C/Users/Noah/Web Development/Noah/Site/index.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/css/style.css",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/workouts.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/about.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/blog/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/contact.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/archive.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/search.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/index.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/search/search-result.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/pagination/search.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/search/search-results.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/pagination/default.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post_in_list.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/search/search-form.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/search/search-form-default.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/content/workout-item.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/related-posts.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/latest-posts-widget.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post_next.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post_prev.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/featured-post.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post_tags.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/js/scripts.js",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/tag_link.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post_tag_link.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/pagination/page-links.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/blog_prevnext.html",
+		"/C/Users/Noah/Downloads/perchblogv5.0/perch_blog_v5.0/blog/archive.php",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/index.php",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/dist.zip",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post_in_list.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/category.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post_in_list-old.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post-old.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/README.txt",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog_v5.0/blog/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/config/apps.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-audio-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-gallery-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-video-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/archive.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/contact.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/about.html",
+		"/C/Users/Noah/Web Development/Chickadee Farm/less/_page-content.less",
+		"/C/Users/Noah/Web Development/Chickadee Farm/index.html",
+		"/C/Users/Noah/Web Development/Chickadee Farm/js/scroll.js",
+		"/C/Users/Noah/Coding!/Node.js web scraper/package.json"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/img/congruent.png",
+			"008584",
+			"#searchform",
+			"about",
+			"Work Sans",
+			"Rubik",
+			"font-family",
+			"post-cat",
+			"entry-title",
+			"header",
+			"images",
+			"\">\n",
+			"about"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/img/sayagata.png",
+			".searchform",
+			"Roboto",
+			"Work Sans",
+			"../images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/_page-content.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3114,
+								3114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Redesign.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

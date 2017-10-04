@@ -1,0 +1,270 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 7064,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/_page-content.less",
+			"settings":
+			{
+				"buffer_size": 10458,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/less/_page-content.less",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/dist.zip",
+		"/C/Users/Noah/Web Development/NoahRedesign/Site/index.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/css/style.css",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post_in_list.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post_in_list.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/post.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/templates/blog/blog_prevnext.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/blog/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/index.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/category.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/js/scripts.js",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post_in_list-old.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/post-old.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog/templates/blog/README.txt",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/addons/apps/perch_blog_v5.0/blog/post.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/perch/config/apps.php",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-audio-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-gallery-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/single-video-blog.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/archive.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/contact.html",
+		"/C/Users/Noah/Web Development/Carol Casparian -- Food Blog/Site/about.html",
+		"/C/Users/Noah/Web Development/Chickadee Farm/less/_page-content.less",
+		"/C/Users/Noah/Web Development/Chickadee Farm/index.html",
+		"/C/Users/Noah/Web Development/Chickadee Farm/js/scroll.js",
+		"/C/Users/Noah/Coding!/Node.js web scraper/package.json"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Work Sans",
+			"Rubik",
+			"font-family",
+			"post-cat",
+			"entry-title",
+			"header",
+			"images",
+			"\">\n",
+			"about"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Roboto",
+			"Work Sans",
+			"../images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 7064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3345,
+								3345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/_page-content.less",
+					"settings":
+					{
+						"buffer_size": 10458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3258,
+								3258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2426.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 81.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true
+}
